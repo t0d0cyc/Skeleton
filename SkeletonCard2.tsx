@@ -12,14 +12,10 @@ const SkeletonCard = ({
   width,
 }: SkeletonCardProps) => {
 
-  // const styleObj = {
-  //   display: "grid",
-  //   gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-  //   gap: "40px", 
-  //   justifyContent: "center", 
-  //   alignItems: "center",
-  // }
-  const styleObj = { display: 'flex', gap: '70px', flexWrap: 'wrap', justifyContent: 'center'}
+  const styleObj = { display: 'flex', 
+                    gap: '70px', 
+                    flexWrap: 'wrap', 
+                    justifyContent: 'center'}
 
   return (
     <>
