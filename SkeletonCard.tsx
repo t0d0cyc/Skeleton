@@ -12,14 +12,9 @@ const SkeletonCard = ({
   width,
 }: SkeletonCardProps) => {
 
-  const styleObj = { display: 'flex', 
-                    gap: '70px', 
-                    flexWrap: 'wrap', 
-                    justifyContent: 'center'}
-
   return (
     <>
-      <div style = {styleObj}>
+      <div className = "skeleton">
         {count !== 0 && Array.from({ length: count }).map((_, index) => (
           <Skeleton
             key={index}
