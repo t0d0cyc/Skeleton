@@ -1,4 +1,5 @@
 import SkeletonCard from "./SkeletonCard";
+import "./index.css";
 
 const index = () => {
   return (
